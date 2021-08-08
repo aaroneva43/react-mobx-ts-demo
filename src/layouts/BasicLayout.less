@@ -1,0 +1,40 @@
+.basic_layout {
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+
+  .main-content {
+    height: 100vh;
+    // display: flex;
+    // justify-content: space-between;
+  }
+
+  .footer {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .sider {
+    height: 100vh;
+  }
+
+  .trigger:hover {
+    color: #1890ff;
+  }
+
+  .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+
+  :global {
+    .ant-menu-item {
+      background-color: yellow;
+    }
+  }
+}
